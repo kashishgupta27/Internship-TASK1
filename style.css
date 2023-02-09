@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Header{
+    padding: 2px;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(business-women-signature-document.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.row{
+     width: 100%;
+     padding: 1px 85px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 1;
+    }
+.logo{
+    display: flex;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color:rgb(216, 150, 51);
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: #e4e9e4;
+}
+.navbar h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.navbar input{
+    background: transparent;
+    border: solid 0px;
+    border-bottom: solid 1px rgb(216, 150, 51);
+    color:rgb(216, 150, 51);
+}
+
+.navbar input::placeholder{
+    color:rgb(216, 150, 51);
+}
+.content{
+    color:black ;
+    text-align: left;
+    padding-right: 60%;
+    padding-top: 30%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inner_section{
+    width: 50%;
+    padding: 80px;
+}
+
+.section{
+    padding: 5% 5%;
+    display: flex;
+}
+.section img{
+    border: solid 0px;
+    border-radius: 5%;
+}
+.Searchbox{
+    display: flex;
+    padding: 1% 5%;
+    font-size: 130%;
+    justify-content: space-between;
+    background-color: #f7b47c;
+}
+
+.Searchbox input{
+    width: 20%;
+    border:solid 0px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.cards{
+    padding: 2% 3%;
+    display: flex;
+}
+
+.card{
+padding: 2% 2%;
+}
+.card img{
+    border: solid 0px;
+    border-radius: 5%;
+}
+.guide{
+    padding: 4% 2% 2% 2%;
+}
+button{
+    background-color: #ed7530;
+    border-radius: 25px;
+}
+#slide{
+    background-color: grey;
+
+}
